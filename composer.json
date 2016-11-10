@@ -1,0 +1,57 @@
+{
+    "name": "githubjeka/rest-yii2",
+    "description": "Yii 2 Rest Api Template",
+    "keywords": ["yii2", "rest", "application template", "api"],
+    "homepage": "https://github.com/githubjeka/yii2-rest",
+    "type": "project",
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Evgeniy Tkachenko",
+            "email": "et.coder@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/githubjeka/yii2-rest/issues",
+        "source": "https://github.com/githubjeka/yii2-rest"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "guzzlehttp/guzzle": "~5",
+        "vlucas/phpdotenv": "^2.4",
+        "mailgun/mailgun-php": "^2.0",
+        "yiisoft/yii2-swiftmailer": "^2.0",
+        "stripe/stripe-php": "^3.19",
+        "logvin/yii2-relation-expand-fields-behavior": "dev-master",
+        "bryglen/yii2-twillio": "*",
+        "twilio/sdk": "^5",
+        "kartik-v/yii2-mpdf": "^1.0",
+        "linslin/yii2-curl": "*",
+        "machour/yii2-google-apiclient": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/logvinoleg89/yii2-relation-expand-fields-behavior"
+        }
+    ]
+}
